@@ -1,7 +1,7 @@
 import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation';
 export default async function Page(params){
-    redirect('/');
+    redirect('/?dataSource=notion');
     console.log(params);
     const secret = params.searchParams.user;
     return(
