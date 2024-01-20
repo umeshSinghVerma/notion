@@ -12,6 +12,7 @@
     "cookies-next": "^4.1.0",
     "next": "14.1.0",
     "react": "^18",
+    "@notionhq/client": "^2.2.14",
     "react-dom": "^18"
   },
   "devDependencies": {
