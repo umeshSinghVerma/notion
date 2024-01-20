@@ -14,10 +14,9 @@ export default function WebsiteContent() {
                             <div className="flex flex-col gap-2 lg:flex-row">
                                 <input
                                     type="text"
-                                    className="border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring flex h-9 w-full rounded-md border px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm file:font-medium focus:border-violet-500 focus:outline-none focus:ring-4 focus:ring-violet-500/10 disabled:cursor-not-allowed disabled:opacity-50"
+                                    className="border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring flex h-9 w-full rounded-md border px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm file:font-medium focus:border-violet-500 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
                                     name="website"
                                     placeholder="https://www.example.com"
-                                    value=""
                                     spellCheck="false"
                                     data-ms-editor="true"
                                 />
@@ -43,10 +42,9 @@ export default function WebsiteContent() {
                             <div className="flex flex-col gap-2 lg:flex-row">
                                 <input
                                     type="text"
-                                    className="border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring flex h-9 w-full rounded-md border px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm file:font-medium focus:border-violet-500 focus:outline-none focus:ring-4 focus:ring-violet-500/10 disabled:cursor-not-allowed disabled:opacity-50"
+                                    className="border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring flex h-9 w-full rounded-md border px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm file:font-medium focus:border-violet-500 focus:outline-none focus:ring-4disabled:cursor-not-allowed disabled:opacity-50"
                                     name="sitemap"
                                     placeholder="https://www.example.com/sitemap.xml"
-                                    value=""
                                     spellCheck="false"
                                     data-ms-editor="true"
                                 />
